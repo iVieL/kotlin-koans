@@ -2,7 +2,7 @@ fun sendMessageToClient(
         client: Client?, message: String?, mailer: Mailer
 ) {
     //val personalInfo = client?.personalInfo ?: return;
-    val email = client?.personalInfo.email ?: return;
+    val email = client?.personalInfo?.email ?: return;
     mailer.sendMessage(email, message ?: return);
 }
 

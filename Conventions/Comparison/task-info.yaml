@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 93
-    length: 253
+  - offset: 296
+    length: 241
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -18,7 +18,7 @@ files:
               else -> dayOfMonth - other.dayOfMonth
           }
     selected: true
-    status: Unchecked
+    status: Solved
   text: |
     data class MyDate(val year: Int, val month: Int, val dayOfMonth: Int) : Comparable<MyDate> {
         /* TODO */
@@ -53,5 +53,5 @@ files:
         }
     }
   learner_created: false
-status: Failed
+status: Solved
 record: -1
