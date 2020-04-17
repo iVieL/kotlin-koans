@@ -17,7 +17,7 @@ files:
               mailer.sendMessage(email, message)
           }
     selected: true
-    status: Solved
+    status: Unchecked
   text: |
     fun sendMessageToClient(
             client: Client?, message: String?, mailer: Mailer
