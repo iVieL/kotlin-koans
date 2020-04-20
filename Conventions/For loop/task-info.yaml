@@ -29,7 +29,7 @@ files:
           }
       }
     selected: true
-    status: Unchecked
+    status: Solved
   text: |-
     class DateRange(val start: MyDate, val end: MyDate)
 
