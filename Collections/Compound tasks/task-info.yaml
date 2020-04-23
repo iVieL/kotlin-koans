@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 190
-    length: 294
+  - offset: 351
+    length: 133
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -30,7 +30,7 @@ files:
       return customers
                   .flatMap(Customer::getOrderedProducts)
                   .count { it == product }
-    selected: true
+    selected: false
     status: Solved
   - offset: 819
     length: 31

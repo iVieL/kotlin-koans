@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 160
-    length: 298
+  - offset: 134
+    length: 324
     placeholder_text: TODO()
     initial_state:
       length: 6

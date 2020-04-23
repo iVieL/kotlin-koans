@@ -4,8 +4,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 521
-    length: 555
+  - offset: 0
+    length: 1076
     placeholder_text: 'class DateRange(val start: MyDate, val end: MyDate)'
     initial_state:
       length: 51
