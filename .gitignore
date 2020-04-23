@@ -90,7 +90,7 @@ gradle-app.setting
 .gradletasknamecache
 .data/
 temp/
-classes/
+#classes/
 deploy/
 javadoc/
 cwallet.sso.lck
